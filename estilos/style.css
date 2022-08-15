@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 
+    
 }
 html, body{
     height: 100vh;
@@ -12,28 +13,32 @@ html, body{
     background-color:black;
 }
 body{
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center ;
+    
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center ;
     background-size: cover;
     background-attachment: fixed;
-
 }
+.telefone{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        
+        height: 311px;
+        height: 500px;
+        background: url('../imagens/frame-iphone.png') no-repeat;
+    
+}
+
 main{
     position: relative;
     height: 100vh;
     
     
 }
-section#telefone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    height: 500px;
-    height: 500px;
-    background: blue url(../imagens/frame-iphone.png) no-repeat;
 
-}
+
   
     
 
