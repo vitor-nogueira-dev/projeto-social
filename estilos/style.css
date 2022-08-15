@@ -15,7 +15,7 @@ main{
     position: relative;
     height: 100vh;
 }
-body{
+body{ 
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -31,4 +31,14 @@ section#telefone{
 
     height: 630px;
     width: 311px;
+}
+iframe#tela{
+    position:relative;
+    top: 164px;
+    left: 155px;
+    width: 265px;
+    height: 470px;
+    
+
+   
 }
